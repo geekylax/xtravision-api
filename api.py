@@ -35,7 +35,6 @@ class DNN(nn.Module):
 # Define the input data structure for making predictions
 class InputData(BaseModel):
     input: list[float]
-    return input
 
 # Define a helper class for lazy loading and scaling the model
 class ModelHandler:
